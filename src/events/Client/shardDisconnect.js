@@ -1,10 +1,12 @@
-const { WebhookClient, MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 
 module.exports = (client, event, id) => {
-const hook = new WebhookClient({ url: client.config.hook.shard});
+  
+  const Giveaway = client.channels.cache.get(client.config.logs);
+  
   const embed = new MessageEmbed()
   .setDescription(`Shard #${id} Disconnected`)
   .setColor('RED')
   .setTimestamp()
-  hook.send({embeds: [embed]})
+  Giveaway.send({embeds: [embed]})
 }
