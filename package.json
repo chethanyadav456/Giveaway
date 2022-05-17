@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chethanyadav456/Giveaway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chethanyadav456/Giveaway/issues"
+  },
+  "homepage": "https://github.com/chethanyadav456/Giveaway#readme",
   "author": "Raaz#2233",
   "license": "MIT",
   "dependencies": {
