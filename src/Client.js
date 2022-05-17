@@ -113,7 +113,7 @@ class Giveaway extends Client {
         }
      });
 	  this.on("ready", async () => {
-        await this.application.commands?.set(data).then(() => console.log(`Client Application (/) Registered.`)).catch((e) => console.log(e));
+        await this.application.commands.set(data).then(() => console.log(`Client Application (/) Registered.`)).catch((e) => console.log(e));
     });
 	 }
 		 connect() {
