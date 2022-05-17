@@ -2,12 +2,7 @@ module.exports = {
     token: "BOT_TOKEN",
     mongodb: "mongodb+srv://",
     prefix: "!",
-	 hook: {
-		 guild: "", //webhooks 
-		 shard: "",
-		 logs: "",
-		 error: "",
-	 },
+    logs: "", // channel id where the bot will send logs
   
  auth: {
 		support: "https://discord.gg/apexbot",
