@@ -3,7 +3,7 @@ const moment = require('moment');
 
 
 module.exports = async (client, guild) => {
-  const hook = new WebhookClient({ url: client.config.hook.guild});
+  const Giveaway = client.channels.cache.get(client.config.logs);
 
   let own = await guild.fetchOwner()
   
@@ -18,6 +18,6 @@ module.exports = async (client, guild) => {
     .setColor(client.color)
     .addField(`${client.user.username}'s Server Count`, `\`${client.guilds.cache.size}\` Severs`)
     .setTimestamp()
-    hook.send({embeds: [embed]})
+    Giveaway.send({embeds: [embed]})
 	
 }
