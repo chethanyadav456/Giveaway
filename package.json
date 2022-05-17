@@ -1,0 +1,18 @@
+{
+  "name": "new-giveaway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-giveaways": "^5.0.1",
+    "discord.js": "^13.3.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "node": "^17.1.0"
+  }
+}
