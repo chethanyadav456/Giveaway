@@ -10,7 +10,7 @@ module.exports = {
   usage: '<string>',
   permission: [],
   owner: true,
-  execute: async (message, args, client, prefix) => {
+ run: async (client, message, args, guildData, lang) => {
     const serverlist = client.guilds.cache.map(
       (guild, i) => `\`[ • ]\` | ${guild.name} | \`[ ${guild.id} ]\` | \`[${guild.memberCount}]\``,
     );
