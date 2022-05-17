@@ -9,3 +9,4 @@ module.exports = (client, info) => {
  .setColor('RED')
  Giveaway.send({ embeds: [embed]})
 }
+
