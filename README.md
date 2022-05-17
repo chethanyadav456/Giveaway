@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/chethanyadav456/Giveaway">
-    <img src="https://media.discordapp.net/attachments/835069459869466664/975952480133345281/giveaway.png?width=498&height=498" alt="Logo" width="80" height="80">
+    <img src="./giveaway.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Giveaway - Discord Bot</h3>
