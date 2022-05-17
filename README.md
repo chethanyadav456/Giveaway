@@ -99,4 +99,3 @@ Distributed under the MIT License. See [LICENSE](https://github.com/chethanyadav
 
 * [Chethan Yadav](https://github.com/chethanyadav456/)
 * [Siddesh Sharma](https://github.com/alivexd)
-* lol
