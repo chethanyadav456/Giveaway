@@ -1,13 +1,13 @@
 {
-  "name": "new-giveaway",
-  "version": "1.0.0",
-  "description": "",
+  "name": "giveaway",
+  "version": "1.2.1",
+  "description": "A giveaway bot made by Raaz#2233",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Raaz#2233",
+  "license": "MIT",
   "dependencies": {
     "discord-giveaways": "^5.0.1",
     "discord.js": "^13.3.1",
