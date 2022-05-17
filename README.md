@@ -27,6 +27,8 @@
 
 ![Screen Shot](https://cdn.discordapp.com/attachments/835069459869466664/975968029785616454/unknown.png)
 
+## Support Server
+[Support Server](https://discord.gg/KCfmGuM27e) - Giveaway's Support Server Invite
 
 ## Getting Started
 
