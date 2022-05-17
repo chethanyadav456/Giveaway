@@ -85,7 +85,7 @@ members of the project's leadership.
 ### Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [https://github.com/brblacky/WaveMusic/blob/main/version][version]
+available at [https://github.com/chethanyadav456/Giveaway/blob/main/version][version]
 
 [homepage]: https://github.com/brblacky/WaveMusic
 [version]: https://github.com/chethanyadav456/Giveaway/blob/main/version
