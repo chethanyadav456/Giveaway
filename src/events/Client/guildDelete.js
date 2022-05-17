@@ -1,8 +1,9 @@
-const { WebhookClient, MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const moment = require('moment');
 
 module.exports = async (client, guild) => {
-  const hook = new WebhookClient({ url: client.config.hook.guild});
+  
+  const Giveaway = client.channels.cache.get(client.config.logs);
 
   
   const embed = new MessageEmbed()
@@ -15,5 +16,5 @@ module.exports = async (client, guild) => {
     .addField(`${client.user.username}'s Server Count`, `\`${client.guilds.cache.size}\` Severs`)
     .setColor(client.color)
     .setTimestamp()
-    hook.send({embeds: [embed]})
+    Giveaway.send({embeds: [embed]})
 }
