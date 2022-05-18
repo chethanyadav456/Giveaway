@@ -7,7 +7,7 @@
   <h3 align="center">Giveaway - Discord Bot</h3>
 
   <p align="center">
-    Easy To Use Giveaway Bot For Discord Written In Discord.js v13. Ft. Slash Commands. Make Giveaways and more..!
+    A feature-rich Giveaway Bot For Discord Written In Discord.js v13. Ft. Slash Commands. Make Giveaways and more..!
     <br/>
     <br/>
     <a href="https://github.com/chethanyadav456/Giveaway"><strong>Explore the docs »</strong></a>
