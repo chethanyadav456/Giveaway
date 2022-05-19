@@ -68,7 +68,7 @@ npm install
 4. Enter your BOT_TOKEN in `config.js`
 
 ```JS
-const BOT_TOKEN = 'ENTER YOUR BOT TOKEN ';
+BOT_TOKEN = 'ENTER YOUR BOT TOKEN '
 ```
 
 ## Contributing
